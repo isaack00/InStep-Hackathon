@@ -67,7 +67,7 @@ export function DataTable<TData, TValue>({
                 {row.getVisibleCells().map((cell) => (
                   
                   <TableCell key={cell.id}>
-                    <a href="usage">
+                    <a href="usage-record">
                     <div className="h-full w-full">
                     {flexRender(cell.column.columnDef.cell, cell.getContext())}
                     </div>

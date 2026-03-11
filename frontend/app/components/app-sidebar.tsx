@@ -44,7 +44,7 @@ const data = {
       items: [
         {
           title: "History",
-          url: "#",
+          url: "/personal",
         },
         {
           title: "Starred",
@@ -127,7 +127,7 @@ const data = {
   projects: [
     {
       name: "APRA Compliance Platform",
-      url: "#",
+      url: "/dashboard",
       icon: (
         <Code
         />
