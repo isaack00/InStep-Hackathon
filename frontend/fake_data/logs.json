@@ -1,0 +1,47 @@
+[
+  {
+    "username": "system_service_prod",
+    "date": "2026-03-11T11:20:01Z",
+    "cost_per": 0.000015,
+    "file_name": "src/api/v1/generate-summary.ts",
+    "line": 142,
+    "ai_model": "gpt-4o-mini",
+    "description": "API Call: Text Summarization | Input: 450 tokens, Output: 120 tokens | Latency: 850ms"
+  },
+  {
+    "username": "worker_node_04",
+    "date": "2026-03-11T11:21:45Z",
+    "cost_per": 0.000002,
+    "file_name": "src/services/image-processor.py",
+    "line": 88,
+    "ai_model": "gemini-1.5-flash",
+    "description": "API Call: Multimodal Analysis | Image parse successful | Latency: 1200ms"
+  },
+  {
+    "username": "dev_sandbox_user",
+    "date": "2026-03-11T11:22:10Z",
+    "cost_per": 0.00003,
+    "file_name": "src/hooks/use-code-gen.tsx",
+    "line": 54,
+    "ai_model": "claude-3-5-sonnet",
+    "description": "API Call: Code Autocomplete | Cache Hit: False | Latency: 2100ms"
+  },
+  {
+    "username": "system_service_prod",
+    "date": "2026-03-11T11:23:05Z",
+    "cost_per": 0.000015,
+    "file_name": "src/api/v1/translate.ts",
+    "line": 22,
+    "ai_model": "gpt-4o-mini",
+    "description": "API Call: Batch Translation (EN -> ES) | Success | Tokens: 890"
+  },
+  {
+    "username": "billing_agent_job",
+    "date": "2026-03-11T11:25:30Z",
+    "cost_per": 0.000005,
+    "file_name": "src/lib/parser.ts",
+    "line": 310,
+    "ai_model": "llama-3-8b-instruct",
+    "description": "API Call: Structured Data Extraction | RegEx fallback used | Latency: 400ms"
+  }
+]
